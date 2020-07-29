@@ -1,0 +1,13 @@
+server:
+  maxThreads: 512
+  applicationConnectors:
+    - type: http
+      port: 8080
+  adminConnectors:
+    - type: http
+      port: 8081
+
+
+mongoConnection:
+  mongoClientUri: "mongodb://localhost:27017"
+  database: "leanix"
